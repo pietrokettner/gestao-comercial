@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.backgroundGray {
+    background: linear-gradient(to right, #FAE7F1, #EDE7F2, #FEF0EC);
+}
+
+.divTitulo {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.logo {
+    background: #212121;
+    padding: 1rem;
+    border-radius: 80px;
+}
+
+.divTitulo p {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+
+.divTitulo h1 {
+    font-size: 6.5rem;
+    text-wrap: nowrap;
+}
+
+.divTitulo h2 {
+    font-size: 5rem;
+    color: aqua;
+    text-wrap: nowrap;
+}
+
+.divSubtitulo {
+    background: #212121;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.divSubtitulo p {
+    font-family: "Permanent Marker", cursive;
+    font-size: 1.5rem;
+    color: #E6C7F4;
+}
+
+.divButton1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divButton1 a {
+    font-family: "Playwrite CU", cursive;
+    text-decoration: none !important;
+    color: #212121;
+    font-weight: 700;
+    font-size: 2rem;
+    transition: 0.3s ease-in-out;
+    padding: 1rem;
+    background: #44da4c;
+    border-radius: 30px;
+    transition: 0.3 ease-in-out;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.divButton1 a:hover {
+    background: #212121;
+    color: #44da4c;
+}
+
+.containerSVG {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-circle {
+    fill: #E6C7F4;
+}
+
+
+.gear, .trader {
+    position: absolute;
+    fill: #DA4494;
+    animation: rotate 5s linear infinite; 
+}
+
+.lightBulb {
+    position: absolute;
+    fill: #DA4494;
+    animation: float 3s ease-in-out infinite;
+}
+
+.dude {
+    animation: float1 3s ease-in-out infinite;
+}
+
+
+.gear-reverse {
+    animation-direction: reverse; 
+    left: 10%;
+} 
+
+/* Animação de rotação */
+@keyframes rotate {
+    from {
+    transform: rotate(0deg);
+    }
+    to {
+    transform: rotate(360deg);
+    }
+}
+
+/* Animação de flutuação para o lightbulb */
+@keyframes float {
+    0%, 100% {
+        transform: translateY(10px); 
+        transform: translateX(100px);
+    }
+    50% {
+        transform: translateY(-10px); 
+        transform: translateX(-50px);
+    }
+}  
+
+@keyframes float1 {
+    0%, 100% {
+        transform: translateY(-5.5px);
+        transform: translateX(-40px);
+    }
+    50% {
+        transform: translateY(15.5px);
+        transform: translateX(40px);
+    }
+}
+
+.bordertop {
+    border-top: 1px solid #E6C7F4;
+}
+
+.divInfo {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.divInfo h3, .divInfo p{
+    color: #22053D;
+}
+
+.divVideo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    flex-direction: column;
+}
+
+.divVideo h2 {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+
+.divInfo2, .divImg {
+    margin-top: 2rem;
+}
+
+.divInfo2 h3{
+    font-size: 5rem;
+    font-size: 4rem;
+    margin-bottom: 3rem;
+    color: #44da4c;
+}
+
+.divInfo2 p {
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+}
+
+.liTitulo {
+    font-size: 2rem;
+    color: #44da4c;
+}
+
+.liTexto {
+    color: #22053D;
+}
+
+.img1 {
+    border-radius: 20px;
+}
+
+.backgroundWhite {
+    background: #F6F5FA;
+}
+
+.tituloIndicado {
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 4rem;
+    margin-bottom: 4rem;
+    color: #44da4c;
+}
+
+.divIndicado {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.divIndicado h3 {
+    color: #44da4c;
+    font-size: 2.3rem;
+    margin-top: 1rem;
+}
