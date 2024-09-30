@@ -312,13 +312,11 @@ li h3 {
 }
 
 .divRotina h4 {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     padding: 1rem;
-    background: #44da4c;
-    border-radius: 50px;
 }
 
 .divRotina p {
-    color: #212121;
+    color: #44da4c;
     font-size: 1.2rem;
 }
