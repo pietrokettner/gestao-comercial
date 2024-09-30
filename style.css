@@ -231,3 +231,94 @@ html {
     font-size: 2.3rem;
     margin-top: 1rem;
 }
+
+.backgroundLista {
+    background: #212121;
+}
+
+.tituloLista, .tituloRotina {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    color: #44da4c;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.lista {
+    display: flex;
+    align-items: flex-start;
+    color: #EDE7F2;
+    gap: 1rem;
+    list-style: none; 
+    padding-left: 2.5rem;
+    margin-top: 2rem;
+}
+
+.lista li {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-left: 20px;
+}
+
+.lista li::before {
+    content: '●';
+    color: #FF6347;
+    font-size: 1em;
+    position: absolute;
+    left: 7%;
+    top: -20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: chartreuse;
+    border-radius: 50%;
+    width: 1.4rem;
+    height: 1.4rem;
+}
+
+li h3 {
+    color: #44da4c;
+    font-size: 1.5rem;
+}
+
+.containerRotina {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.divRotina {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.divRotina h3 {
+    padding: 1rem;
+    background: #22053D;
+    color: #44da4c;
+    border-radius: 50%;
+    width: 75px; 
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.divRotina h4 {
+    font-size: 1.1rem;
+    padding: 1rem;
+    background: #44da4c;
+    border-radius: 50px;
+}
+
+.divRotina p {
+    color: #212121;
+    font-size: 1.2rem;
+}
