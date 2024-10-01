@@ -320,3 +320,118 @@ li h3 {
     color: #44da4c;
     font-size: 1.2rem;
 }
+
+.divLifeTime {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    padding: 2rem;
+    background: #F6F5FA;
+    border-radius: 20px;
+}
+
+.divImgLifeTime {
+    padding: 1rem;
+    background: #FE296F;
+    border-radius: 40px;
+    margin-left: 2rem;
+}
+
+.divTextoLifeTime {
+    display: flex;
+    flex-direction: column;
+}
+
+.divTextoLifeTime h3 {
+    font-size: 2.4rem;
+}
+
+.divTextoLifeTime p {
+    font-size: 1.5rem;
+}
+
+.backgroundGradient {
+    background: linear-gradient(180deg, #FFF8F4 0%, #FFF8F4 50%, #FFF5F5 60%, #FDEFF6 70%, #F0E8F4 80%, #FDEDF3 90%, #ECE6F1 100%);
+}
+
+.div50Off {
+    padding: 1rem;
+    text-align: center;
+    background: #FF2970;
+    color: #ECE6F1;
+    border-radius: 100px;
+    position: relative;
+    width: 10rem;
+    height: 17%;
+    top: -8%;
+}
+
+.div50Off h3 {
+    font-size: 3.4rem;
+}
+
+.divTexto1 {
+    margin-top: -4rem;
+    margin-bottom: 3rem;
+}
+
+.divTexto1 h3, .divTexto2 h3, .divTexto3 h3 {
+    font-size: 3rem;
+    color: #22053D;
+}
+
+.divTexto1 p {
+    font-size: 2rem;
+    color: #FF2970;
+}
+
+.divTexto2 {
+    margin-bottom: 2rem;
+}
+
+.divTexto3 {
+    margin-bottom: 1rem;
+}
+
+.divTexto2 p {
+    font-size: 2rem;
+    color: #22053D;
+}
+
+.divTexto3 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5rem;
+}
+
+.divTexto3 h3 {
+    font-size: 3rem;
+}
+
+.risco {
+    text-decoration: line-through;
+}
+
+.divTexto3 p {
+    font-size: 1.5rem;
+}
+
+.garantia {
+    padding: 0.5rem;
+    border: 1px solid #FE296F;
+    color: #FE296F;
+    border-radius: 10px;
+    width: 70%;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.divPicPay {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 5rem;
+}
