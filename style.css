@@ -232,6 +232,11 @@ html {
     margin-top: 1rem;
 }
 
+.divIndicado p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
 .backgroundLista {
     background: #212121;
 }
@@ -319,6 +324,8 @@ li h3 {
 .divRotina p {
     color: #44da4c;
     font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
 }
 
 .divLifeTime {
@@ -326,7 +333,7 @@ li h3 {
     align-items: center;
     gap: 2rem;
     margin-top: 1rem;
-    margin-bottom: 5rem;
+    margin-bottom: 7rem;
     padding: 2rem;
     background: #F6F5FA;
     border-radius: 20px;
@@ -350,6 +357,7 @@ li h3 {
 
 .divTextoLifeTime p {
     font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
 }
 
 .backgroundGradient {
@@ -378,8 +386,12 @@ li h3 {
 }
 
 .divTexto1 h3, .divTexto2 h3, .divTexto3 h3 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     color: #22053D;
+}
+
+.divTexto1 h3 {
+    letter-spacing: 15px;
 }
 
 .divTexto1 p {
@@ -398,6 +410,7 @@ li h3 {
 .divTexto2 p {
     font-size: 2rem;
     color: #22053D;
+    font-family: "Montserrat", sans-serif;
 }
 
 .divTexto3 {
@@ -417,6 +430,7 @@ li h3 {
 
 .divTexto3 p {
     font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
 }
 
 .garantia {
@@ -427,6 +441,12 @@ li h3 {
     width: 70%;
     font-size: 1.3rem;
     text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+.garantia:hover {
+    background: #FE296F;
+    color: #212529;
 }
 
 .divPicPay {
@@ -435,3 +455,168 @@ li h3 {
     justify-content: flex-start;
     gap: 5rem;
 }
+
+.div1 h3, .div2 h3 {
+    font-size: 2.5rem;
+}
+
+.div1 p, .div2 p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+.textoInvestimento {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 2rem;
+}
+
+.exclamacao {
+    background: #44da4c;
+    color: #212121;
+    border-radius: 100px;
+    padding: 0.1rem 0.4rem;
+    display: inline-flex; 
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    cursor: pointer;
+    position: relative; 
+}
+
+.exclamacao::after {
+    content: "O valor final pode sofrer alteração por causa da variação do IOF. Essa diferença acontece por conta da incidência do OIF (imposto sobre Operações Financeiras), um imposto obrigatório e cobrado pelo governo sobre todas as operações de financiamento.";
+    position: absolute;
+    bottom: 125%; 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #212121;
+    color: #44da4c;
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+    z-index: 3;
+    pointer-events: none; 
+    font-family: "Montserrat", sans-serif;
+    width: 20rem;
+}
+
+.exclamacao:hover::after {
+    opacity: 1;
+    visibility: visible;
+}
+
+.containerFormulario {
+    padding: 2rem;
+    background: #F6F5FA;
+    border-radius: 20px;
+    margin-top: 4rem;
+    width: 70%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.tituloInscricao {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    font-size: 2.3rem;
+}
+
+.headerFormulario {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.headerFormulario p {
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.divFormualario {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.divFormualario input {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid snow;
+    height: 3.3rem;
+    -webkit-appearance: none;
+}
+
+input[type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none; 
+}
+
+.divSelect {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.checkbox {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 7% !important;
+    height: 20px !important;
+    border: 2px solid #44da4c;
+    border-radius: 4px;
+    background-color: #22053D;
+    cursor: pointer;
+    position: relative;
+    align-self: flex-start;
+}
+
+.checkbox:checked {
+    background-color: #44da4c;
+    border-color: #44da4c;
+}
+
+.checkbox:checked::after {
+    content: '✓';
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.divSelect p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.8rem;
+}
+
+.divButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.buttonInscreverse {
+    padding: 0.5rem;
+    border-radius: 50px;
+    border: none;
+    background: #FE296F;
+    width: 75%;
+    font-size: 1.3rem;
+    transition: 0.3s ease-in-out;
+}
+
+.buttonInscreverse:hover {
+    background: #212529;
+    color: #FE296F;
+}
+
