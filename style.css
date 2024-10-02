@@ -316,6 +316,22 @@ li h3 {
     margin-bottom: 1rem;
 }
 
+.um {
+    opacity: 0.6;
+}
+
+.dois {
+    opacity: 0.7;
+}
+
+.tres {
+    opacity: 0.8;
+}
+
+.quatro {
+    opacity: 1;
+}
+
 .divRotina h4 {
     font-size: 1.5rem;
     padding: 1rem;
@@ -512,7 +528,7 @@ li h3 {
     padding: 2rem;
     background: #F6F5FA;
     border-radius: 20px;
-    margin-top: 4rem;
+    margin-top: 7rem;
     width: 70%;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
