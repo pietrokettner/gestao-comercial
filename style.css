@@ -564,7 +564,6 @@ li h3 {
     border-radius: 8px;
     border: 1px solid snow;
     height: 3.3rem;
-    -webkit-appearance: none;
 }
 
 input[type="number"]::-webkit-inner-spin-button, 
@@ -585,7 +584,7 @@ input[type="number"]::-webkit-outer-spin-button {
     -moz-appearance: none;
     width: 7% !important;
     height: 20px !important;
-    border: 2px solid #44da4c;
+    border: 2px solid #22053D;
     border-radius: 4px;
     background-color: #22053D;
     cursor: pointer;
@@ -636,3 +635,176 @@ input[type="number"]::-webkit-outer-spin-button {
     color: #FE296F;
 }
 
+.video {
+    width: 100%; 
+    max-width: 768px;
+    height: 27rem;
+}
+
+@media (max-width: 1366px) {
+    .divTitulo h1 {
+        font-size: 5rem;
+    }
+
+    .divTitulo h2 {
+        font-size: 5rem;
+        margin-top: 3rem;
+    }
+
+    .containerFormulario {
+        width: auto;
+    }
+
+    .garantia {
+        width: auto;
+    }
+
+    .div1 h3, .div2 h3 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 1114px) {
+    .divContent {
+        width: 100%;
+    }
+
+    .containerSVG {
+        display: none;
+    }
+
+    .divTitulo h1 {
+        font-size: 5rem;
+    }
+
+    .divTitulo h2 {
+        font-size: 3rem;
+    }
+
+    .img1 {
+        width: -webkit-fill-available;
+    }
+
+    .divTexto1 h3 {
+        letter-spacing: 2px;
+    }
+
+    .containerFormulario {
+        width: auto;
+    }
+
+    .divTexto3 h3 {
+        font-size: 1.7rem;
+    }
+
+    .garantia {
+        width: auto;
+        font-size: 0.9rem;
+    }
+
+    .div1 h3, .div2 h3 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .divTitulo h1 {
+        font-size: 5rem;
+        text-wrap: wrap;
+    }
+
+    .divTitulo h2 {
+        font-size: 4rem;
+        text-wrap: wrap;
+    }
+
+    .img1 {
+        border-radius: 20px;
+        width: -webkit-fill-available;
+    }
+
+    .lista {
+        flex-direction: column;
+        margin-left: 0rem;
+    }
+
+    .lista li::before {
+        display: none;
+    }
+
+    .containerRotina {
+        flex-direction: column;
+    }
+
+    .divInfo2 h3 {
+        font-size: 3rem;
+    }
+
+    .tituloIndicado {
+        font-size: 3.5rem;
+    }
+
+    .divLifeTime {
+        flex-direction: column;
+    }
+
+    .div50Off {
+        height: 16%;
+    }
+
+    .divTexto1 h3, .divTexto2 h3, .divTexto3 h3 {
+        font-size: 3rem;
+    }
+
+    .divTexto1 h3 {
+        letter-spacing: 5px;
+    }
+
+    .divTexto3 {
+        gap: 0rem;
+    }
+
+    .divTexto3 h3 {
+        font-size: 2rem;
+    }
+
+    .garantia {
+        width: auto;
+        font-size: 1rem;
+    }
+
+    .div1 h3, .div2 h3 {
+        font-size: 1.1rem;
+    }
+    
+    .containerFormulario {
+        margin-top: auto;
+        width: auto;
+        margin-bottom: 3rem;
+    }
+
+    .video {
+        width: auto; 
+        height: auto; 
+    }
+
+    .headerFormulario p {
+        font-size: 0.8rem;
+    }
+
+    .containerSVG {
+        display: none;
+    }
+
+    .tituloLista {
+        margin-bottom: auto;
+    }
+
+    .tituloLista, .tituloRotina {
+        font-size: 3.3rem;
+    }
+
+    .divIndicado {
+        align-items: center;
+    }
+}
