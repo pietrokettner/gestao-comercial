@@ -676,9 +676,14 @@ input[type="number"]::-webkit-outer-spin-button {
     margin-left: -4rem;
 }
 
+.ulFooter {
+    margin-left: 1rem;
+}
+
 .ulFooter a {
     text-decoration: none;
-    color: #615082;
+    color: #44da4c;
+    font-size: 1.5rem;
 }
 
 .ulFooter a:hover, .subDivFooter a:hover {
@@ -730,6 +735,13 @@ input[type="number"]::-webkit-outer-spin-button {
 
 .subDivContato a:hover {
     color: #AB9FB5;
+}
+
+.divRedes {
+    padding: 1rem;
+    background: #44da4c;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
 }
 
 .divRedes a img {
