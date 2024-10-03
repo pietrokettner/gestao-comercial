@@ -484,6 +484,7 @@ li h3 {
 .textoInvestimento {
     font-family: "Montserrat", sans-serif;
     margin-top: 2rem;
+    margin-bottom: 5rem;
 }
 
 .exclamacao {
@@ -639,6 +640,104 @@ input[type="number"]::-webkit-outer-spin-button {
     width: 100%; 
     max-width: 768px;
     height: 27rem;
+}
+
+.backgroundPurple {
+    background: #22053D;
+    margin-top: -3rem;
+}
+
+.containerFooter1, .containerFooter2, .containerFooter3, .containerFooter4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 3rem !important;
+}
+
+.containerFooter4 {
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 3rem;
+}
+
+.subDivFooter, .subDivFooter {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.tituloFooter, .tituloFooter2 {
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+.tituloFooter2 {
+    margin-left: -4rem;
+}
+
+.ulFooter a {
+    text-decoration: none;
+    color: #615082;
+}
+
+.ulFooter a:hover, .subDivFooter a:hover {
+    color: #5F27BC;
+}
+
+.subDivFooter a {
+    text-decoration: none;
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 1.5rem;
+}
+
+.divFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.divContato {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.divRedes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.subDivContato p {
+    color: #AB9FB5;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.subDivContato a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: whitesmoke;
+    transition: 0.3s ease-in-out;
+}
+
+.subDivContato a:hover {
+    color: #AB9FB5;
+}
+
+.divRedes a img {
+    transition: filter 0.3s ease;
+}
+
+.divRedes a img:hover {
+    filter: invert(35%) sepia(65%) saturate(500%) hue-rotate(240deg) brightness(90%) contrast(85%);
 }
 
 @media (max-width: 1366px) {
@@ -806,5 +905,15 @@ input[type="number"]::-webkit-outer-spin-button {
 
     .divIndicado {
         align-items: center;
+    }
+
+    .divFooter {
+        flex-direction: column;
+    }
+
+    .divContato {
+        gap: 1rem;
+        flex-direction: column;
+        margin-bottom: 3rem;
     }
 }
